@@ -1,0 +1,106 @@
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#contantiner {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1000px;
+    border: 5px solid black;
+}
+
+/*Right boxs design starts hear*/
+
+#right-box{
+    height: 100%;
+    width: 25%;
+   /* border: 5px solid rgb(222, 38, 170);*/
+}
+
+/*Hear starts over row design*/
+#over-row{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+   /* border: 5px solid green; */
+}
+
+#purple-card {
+    background-color: purple;
+    height: 100%;
+    width: 70%;
+}
+
+#grey-card {
+    background-color: grey;
+    height: 100%;
+    width: 30%;
+}
+
+
+/*Hear starts lower row design*/
+#lower-row{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    /*border: 5px solid red;*/
+}
+
+#small-white-card {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+#black-card {
+    background-color: rgb(2, 1, 2);
+    height: 100%;
+    width: 70%;
+}
+
+
+/*Left boxs design starts hear*/
+#left-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    /*border: 5px solid blue;*/
+}
+
+#big-white-card {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/*#big-white-card{
+    border: 5px solid rgb(24, 17, 224);
+    height: 100%;
+    width: 75%;
+}
+
+
+
+#purple-card {
+    bakground-color: purple;
+    height: 100%;
+    width: 75%;
+}
+*/
+
+
