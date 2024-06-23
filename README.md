@@ -17,4 +17,4 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://jepennn.github.io/Testimonials-grid-section/
