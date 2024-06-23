@@ -9,13 +9,102 @@
 
 body{
     background-color:rgb(236, 242, 248);
-    display: flex;
-    justify-content: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
 }
 
 
+#contantiner {
+    margin: 0 auto;
+    padding: 8% 5%;
+    display: flex;
+    flex-direction: column;
+}
 
 
+#left-box {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-box{
+    flex-basis: 25%;
+    display: flex;
+}
+
+.all-cards{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.all-cards img{
+    border-radius: 50%;
+    padding-right: 10px;
+    border-color: rgb(117, 65, 200)
+}
+
+.all-cards h4{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.header p{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header-white-name p{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(25, 33, 46);
+}
+
+#name{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+#white-name{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(25, 33, 46);
+}
+
+#purple-card {
+    background-color: rgb(117, 65, 200);
+    color: #ffff
+}
+
+#grey-card {
+    background-color: rgb(72, 85, 106);
+    color: #ffff;
+}
+
+#small-white-card {
+    background-color: white;
+}
+
+#black-card {
+    background-color: rgb(25, 33, 46);
+    color: #ffff;
+}
+
+#big-white-card {
+    background-color: white;
+
+}
 
 
 
@@ -25,20 +114,32 @@ body{
 @media (min-width: 600px){
 
 #contantiner {
-    display: flex;
     flex-direction: row;
-    height: 500px;
-    width: 1000px;
-    border: 5px solid black;
+    justify-content: space-between;
+    max-width: 1200px;
 }
 
 /*Right boxs design starts hear*/
 
 #right-box{
-    height: 100%;
-    width: 25%;
-   /* border: 5px solid rgb(222, 38, 170);*/
+    flex-basis: 23%;
 }
+
+#big-white-card {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Left boxs design starts hear*/
+#left-box {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 
 /*Hear starts over row design*/
 #over-row{
@@ -46,17 +147,17 @@ body{
     flex-direction: row;
     height: 50%;
     width: 100%;
-   /* border: 5px solid green; */
+    gap: 20px;
 }
 
 #purple-card {
-    background-color: purple;
+    background-color: rgb(117, 65, 200);
     height: 100%;
     width: 70%;
 }
 
 #grey-card {
-    background-color: grey;
+    background-color: rgb(72, 85, 106);
     height: 100%;
     width: 30%;
 }
@@ -68,35 +169,19 @@ body{
     flex-direction: row;
     height: 50%;
     width: 100%;
-    /*border: 5px solid red;*/
+    gap: 20px;
 }
 
 #small-white-card {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 30%;
 }
 
 #black-card {
-    background-color: rgb(2, 1, 2);
+    background-color: rgb(25, 33, 46);
     height: 100%;
     width: 70%;
-}
-
-
-/*Left boxs design starts hear*/
-#left-box {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 75%;
-    /*border: 5px solid blue;*/
-}
-
-#big-white-card {
-    background-color: white;
-    height: 100%;
-    width: 100%;
 }
 
 }
