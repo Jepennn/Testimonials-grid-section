@@ -67,7 +67,7 @@ body{
 .header-white-name p{
     font-size: 10px;
     font-weight: 500;
-    color: rgb(25, 33, 46);
+    color: rgba(25, 33, 46, 0.5);
 }
 
 #name{
